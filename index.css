@@ -1,11 +1,11 @@
 body {
   font-size: 16px;
 }
-.encabezado {
+.encabezado,
+.pie {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: gray;
   width: 100%;
 }
 .encabezado1,
@@ -72,13 +72,11 @@ body {
   border-radius: 10px;
 }
 .pie {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border-radius: 10px;
-  background-color: mediumturquoise;
-  width: 100%;
+  background-color: rgb(0, 183, 255);
   margin-top: 0.5%;
+}
+.encabezado {
+  background-color: grey;
 }
 .elemento {
   align-self: flex-end;
@@ -89,4 +87,10 @@ body {
 p {
   font-size: 1.5vw;
   font-family: "Times New Roman", Times, serif;
+}
+.logo,
+.menu1,
+.menu2,
+.elemento {
+  border-radius: 5px;
 }
