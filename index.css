@@ -4,21 +4,32 @@ body {
 .encabezado,
 .pie {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 10px;
   width: 100%;
+  flex-wrap:wrap;
+  height:5vh;
+  justify-content: space-between;
+  
+}
+.titulo {
+  width: 60%;
+  height:2vh;
 }
 .menu1 {
   background-color: green;
   width: 40%;
+  height: 2vh;
 }
 .menu2 {
   background-color: maroon;
   width: 60%;
+  height: 2vh;
 }
 .logo {
   background-color: blue;
   width: 20%;
+  height: 2vh;
 }
 .contenedor {
   display: flex;
