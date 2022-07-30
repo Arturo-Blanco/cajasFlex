@@ -48,7 +48,7 @@ body {
 .centro {
   flex-grow: 1;
   border-radius: 10px;
-  height: 80vh;
+  height: 40vh;
   width: 32%;
 }
 .izquierda {
@@ -65,7 +65,7 @@ body {
 .izquierda2 {
   background-color: rgb(5, 88, 41);
   width: 66.5%;
-  height: 80vh;
+  height: 30vh;
   border-radius: 10px;
   margin-right: 0.5%;
   margin-top: 0.5%;
@@ -73,7 +73,7 @@ body {
 .derecha2 {
   background-color: rgb(161, 6, 6);
   width: 33%;
-  height: 80vh;
+  height: 30vh;
   border-radius: 10px;
   margin-top: 0.5%;
 }
